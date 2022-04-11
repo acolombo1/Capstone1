@@ -24,7 +24,7 @@ Prepare a folder in your hard drive to copy the files to.
 
 Open Git Bash and execute the following commands:
 - cd [your_local_folder]
-- git clone https://github.com/acolombo1/Portfolio.git
+- git clone https://github.com/acolombo1/Capstone1.git
 
 ### Usage
 
@@ -60,4 +60,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+The original design idea, and images by Cindy Shin are [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+
+The text and theme are [MIT](./LICENSE) licensed.
