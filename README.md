@@ -1,11 +1,10 @@
 # Portfolio Project
 
-> Welcome to Aldo Colombo's Portfolio Project page.
+> Welcome to the FICA Soccer Tournament Project page.
 
 ## Built With
 
 - HTML, CSS and Javascript
-- Framework: Figma template
 - Using GITHub, Visual Studio Code
 
 ## Getting Started
@@ -33,9 +32,9 @@ Open index.html file with your browser of choice.
 
 ### Deployment
 
-Copy index.html and style.css files, and the img folder with its files, to an HTTP server.
+Copy all the files and folders to an HTTP server.
 
-Deployed to: [https://acolombo1.github.io](https://acolombo1.github.io)
+Deployed to: [https://acolombo1.github.io/Capstone1](https://acolombo1.github.io/Capstone1)
 
 ## Authors
 
@@ -46,9 +45,6 @@ Deployed to: [https://acolombo1.github.io](https://acolombo1.github.io)
 - LinkedIn: [Aldo Colombo](https://www.linkedin.com/in/aldo-colombo-2156009) (https://www.linkedin.com/in/aldo-colombo-2156009)
 
 ## 🤝 Contributing
-
-- [**JoseRamon**](https://github.com/jr-cast)
-- [**Arnaud Bandonkeye**](https://github.com/B77748)
 
 Contributions, issues, and feature requests are welcome!
 
