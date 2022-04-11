@@ -60,4 +60,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+The original design idea, and images by Cindy Shin are [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+The text and theme are [MIT](./LICENSE) licensed.
