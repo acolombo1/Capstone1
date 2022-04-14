@@ -58,6 +58,10 @@ header {
   align-items: flex-start;
 }
 
+.not-appear {
+  display: none;
+}
+
 #desktop-header {
   display: none;
 }
@@ -311,6 +315,10 @@ footer {
   text-align: center;
 }
 
+.tocenter2 {
+  text-align: center;
+}
+
 .cclogo {
   margin-top: 5px;
   margin-bottom: -2px;
@@ -329,6 +337,7 @@ footer {
 
 .mini-text-red {
   color: #ef513c;
+  text-decoration: none;
 }
 
 .minispacer {
@@ -337,6 +346,118 @@ footer {
 
 .minispacer2 {
   margin-top: 45px;
+}
+
+.about-section1-wrapper {
+  background-color: rgb(247, 247, 248);
+}
+
+.about-section1 {
+  padding: 44px 0 2px 0;
+  margin: 0 20px;
+}
+
+.about-title {
+  max-width: 98%;
+  height: auto;
+}
+
+.about1 {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #333;
+  margin-bottom: 35px;
+}
+
+.box {
+  background-color: white;
+  width: calc(100% - 40px);
+  text-align: justify;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.about2 {
+  font-size: 0.875rem;
+  line-height: 178.6%;
+  color: #333;
+}
+
+.centerimg {
+  display: flex;
+  justify-content: center;
+}
+
+.about3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 149%;
+  color: #333;
+}
+
+.about4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 0.6rem;
+  line-height: 149%;
+  color: #333;
+}
+
+.hr4 {
+  height: 3px;
+  border-width: 0;
+  background-color: rgb(175, 175, 175);
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.special {
+  margin-bottom: 2px;
+}
+
+.about-section2 {
+  margin: 0 20px;
+}
+
+.about5 {
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 149%;
+  color: #333;
+}
+
+#logo1 {
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.margintopbottom {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.hr5 {
+  height: 1px;
+  border-width: 0;
+  background-color: rgb(196, 196, 196);
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 34px;
+}
+
+.about-section3 {
+  margin: 0 20px;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.margin1 {
+  margin-top: 20px;
+  margin-bottom: -15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -530,6 +651,8 @@ footer {
 
   footer {
     padding-top: 46px;
+    padding-right: calc(50% - 575px);
+    padding-left: calc(50% - 575px);
   }
 
   .desktopfloat {
@@ -557,16 +680,17 @@ footer {
     line-height: 1.5rem;
   }
 
-  .mini-text-red {
-    color: #ef513c;
-    text-decoration: none;
-  }
-
   .minispacer {
     margin-bottom: 22px;
   }
 
   .minispacer2 {
     margin-top: 39px;
+  }
+
+  .about-section1-wrapper {
+    background-image: url("img/about_bg_01.png");
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }

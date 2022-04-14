@@ -1,34 +1,55 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-plusplus */
 
-/* Store Projects in Javascript objects */
-const projects = {
-  MultiPostStories: {
-    name: 'Multi Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: 'img/Portfolio1.png',
-    image2: 'img/Portfolio2.png',
-    technologies: ['html', 'Bootstrap', 'Ruby on Rails'],
-    linkLive: 'https://acolombo1.github.io/Portfolio/',
-    linkSource: 'https://github.com/acolombo1/Portfolio/',
+/* Store Teamss in Javascript objects */
+const teams = {
+  Monarcas: {
+    name: 'Monarcas',
+    fullname: 'Monarcas CF',
+    caption: 'Amateur Serie B, Singapore',
+    image: 'img/team1.png',
+    description: 'The team animates the division and were crowned champions in 1901.',
+    players: '(Main players: Anton Boriska, Donut Alvarado)',
   },
-  ProfessionalArt1: {
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
-    image: 'img/background.png',
-    image2: 'img/background.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    linkLive: '#',
-    linkSource: '#',
+  Tanque01: {
+    name: 'Tanque 01',
+    fullname: 'CA Tanque 01',
+    caption: 'Amateur Serie C, Arroyo Seco, Argentina',
+    image: 'img/team2.png',
+    description: 'The team is one of the oldest Serie C animators, with 658 games played in 33 years.',
+    players: '(Main players: José Ramón Serrizuela, Sergio Denis)',
   },
-  ProfessionalArt2: {
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
-    image: 'img/background.png',
-    image2: 'img/background.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    linkLive: '#',
-    linkSource: '#',
+  Reading: {
+    name: 'Reading',
+    fullname: 'Reading TM',
+    caption: 'Amateur Serie B, Bangalore, India',
+    image: 'img/team3.png',
+    description: 'The team is one of the oldest Serie C animators, with 658 games played in 33 years.',
+    players: '(Main players: José Ramón Serrizuela, Sergio Denis)',
+  },
+  Mushembe: {
+    name: 'Mushembe',
+    fullname: 'Mushembe TP',
+    caption: 'Amateur Serie B, Braville, Cameroon',
+    image: 'img/team4.png',
+    description: 'The team is one of the oldest Serie C animators, with 658 games played in 33 years.',
+    players: '(Main players: Boom Boom Chochoka, Olawun Tupefor)',
+  },
+  RapidDnipro: {
+    name: 'Rapid Dnipro',
+    fullname: 'Rapid Dnipro',
+    caption: 'Ukraine\'s top amateur Serie B, from the city of Dnipro',
+    image: 'img/team5.png',
+    description: 'The team is always on the top spots, still they cannot make it to serie A because a field of their own is required.',
+    players: '(Main players: Ilijushin Dubrobsnik, Dimitry Papadulous)',
+  },
+  SanJose: {
+    name: 'San José',
+    fullname: 'San José de Oruro',
+    caption: 'San José de Oruro, Potosí, Bolivia; serie B amateur',
+    image: 'img/team6.png',
+    description: 'The team from the heights of the Andine region has a strong reputation of respect and sportsmanship.',
+    players: '(Main players: La laucha José Benítez, Josefino Acosta)',
   },
 };
 
