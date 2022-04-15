@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 @font-face {
   font-family: 'Cocogoose';
   src: url('Cocogoose.ttf')  format('truetype');
@@ -332,7 +333,7 @@ header {
 
 .spimg {
   width: 80px;
-  height: 30px; 
+  height: 30px;
 }
 
 .indexfooter {
@@ -707,12 +708,12 @@ header {
   .team-block {
     width: calc(50% - 10px);
   }
-  
+
   .spimg {
     width: 160px;
-    height: 60px; 
+    height: 60px;
   }
-  
+
   .indexfooter {
     padding-top: 46px;
     padding-right: calc(50% - 575px);
