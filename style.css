@@ -6,6 +6,10 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+.onlydesktop {
+  display: none;
+}
+
 #mobile-menu {
   display: none;
   position: fixed;
@@ -430,6 +434,9 @@ footer {
 
 #logo1 {
   border: 1px solid rgb(223, 223, 223);
+  width: 90%;
+  max-width: 390px;
+  height: auto;
 }
 
 .margintopbottom {
@@ -450,20 +457,35 @@ footer {
   margin: 0 20px;
 }
 
-.photo {
-  width: 100%;
-  height: auto;
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 35px;
 }
 
-.margin1 {
-  margin-top: 20px;
-  margin-bottom: -15px;
+.photo {
+  padding: 2px;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
   header {
     margin: 0;
     height: auto;
+  }
+
+  .onlymobile {
+    display: none;
+  }
+
+  .onlydesktop {
+    display: block;
   }
 
   #mobile-header {
@@ -692,5 +714,32 @@ footer {
     background-image: url("img/about_bg_01.png");
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .about-section1 {
+    padding-left: calc(60% - 630px);
+    padding-right: calc(60% - 630px);
+  }
+
+  .about1 {
+    font-size: 1.125rem;
+  }
+
+  .box {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .centerimg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about4 {
+    font-size: 0.835rem;
+  }
+
+  .about5 {
+    font-size: 1.875rem;
   }
 }
