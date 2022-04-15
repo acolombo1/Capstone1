@@ -359,7 +359,6 @@ hint-report/
 .eslintrc.json
 package-lock.json
 package.json
-eslintrc.js
 
 # instructed to be ignored
 test.md
