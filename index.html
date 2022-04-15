@@ -4,26 +4,146 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <script src="loadteams.js" defer></script>
   <script src="actions.js" defer></script>
-  <title>FICA Football Tournament</title>
+  <title>FICA Soccer Tournament</title>
 </head>
 <body>
+  <nav id="mobile-menu">
+    <img id="close-menu" src="img/close_mobile_menu.png" width=20 height=19 alt="Close">
+    <div id="mobile-menu-ul">
+      <hr class="hr1">
+      <p class="list-item"><a class="asnormal" href="about.html">About</a></p>
+      <hr class="hr1">
+      <p class="list-item"><a class="asnormal" href="#">Tournament</a></p>
+      <hr class="hr1">
+      <p class="list-item"><a class="asnormal" href="#">Accreditation</a></p>
+      <hr class="hr1">
+      <p class="list-item"><a class="asnormal" href="#">Sponsors</a></p>
+      <hr class="hr1">
+      <p class="list-item"><a class="asnormal" href="#">News</a></p>
+      <hr class="hr1">
+    </div>
+  </nav>
   <header>
-    <nav>
-
-    </nav>
+    <div id="mobile-header">
+      <img id="hamburger-menu" src="img/mobile_menu.png" width=20 height=18 alt="Menu">
+      <img src="img/logo.png" width=130 height=51 alt="FICA Tournament">
+    </div>
+    <div id="desktop-header">
+      <nav id="desktop-nav">
+        <img src="img/Twitter.png" width=20 height=17 alt="Twitter">
+        <img src="img/facebook.png" width=9 height=18 alt="Facebook">
+        <a href="#" class="asnormal calcright">Spanish</a>
+      </nav>
+      <nav id="desktop-nav2">
+        <ul id="desktop-menu-ul">
+          <li class="list-item2"><img src="img/logo.png" width=130 height=51 alt="FICA Tournament"></li>
+          <li class="list-item2"><a class="asnormal" href="about.html">About</a></li>
+          <li class="list-item2">Program</li>
+          <li class="list-item2">Accreditation</li>
+          <li class="list-item2">Sponsors</li>
+          <li class="list-item2">News</li>
+          <li class="list-item2b">Presentation</li>
+        </ul>
+      </nav>
+    </div>
   </header>
-
-  <section>
-
+  <h1 class="not-appear">FICA Soccer Tournament</h1>
+  <section class="section1-wrapper">
+    <h2 class="not-appear">FICA Soccer Tournament</h2>
+    <div class="section1">
+      <img id="title" src="img/title.png" width=324 height=110 alt="FICA 2022 Tournament">
+      <p class="text-box"> A fun festival where teams from 10 countries who believe in the value
+        of friendship and sports gather and create positive change, which will be held in Buenos Aires in September.
+      </p>
+      <p class="schedule"></p><div class="sched-text">2022.09.14 (Wed) ~ 18 (Sun)</div>
+        <div class="big">@ River Plate Stadium of Buenos Aires, Belgrano, etc.</div><p></p>
+    </div>
   </section>
 
-  <section>
-
+  <section class="section2-wrapper">
+    <div class="section2">
+      <h2 class="myh1">Main Program</h2>
+      <hr class="hr2">
+      <div class="programs-wrapper">
+        <div class="program-block">
+          <img src="img/program_icon_01.png" width=64 height=58 alt="Presentation">
+          <div class="subtitle">Presentation</div>
+          <div class="description">The 10 teams will be presented together with their background and records, and key players.</div>
+        </div>
+        <div class="program-block">
+          <img src="img/program_icon_02.png" width=64 height=58 alt="The Games">
+          <div class="subtitle">The Games</div>
+          <div class="description">The 16 games divided into four days, with a minimum of four games per team will be played.</div>
+        </div>
+        <div class="program-block">
+          <img src="img/program_icon_03.png" width=64 height=58 alt="Press conference">
+          <div class="subtitle">Conference</div>
+          <div class="description">After each game two team members, one of them being the coach, will answer questions to the press.</div>
+        </div>
+        <div class="program-block">
+          <img src="img/program_icon_04.png" width=64 height=58 alt="Dissertation">
+          <div class="subtitle">Dissertation</div>
+          <div class="description">The closing day a dissertation by Marcelo Bielsa will precede the tournament game.</div>
+        </div>
+        <div class="program-block">
+          <img src="img/program_icon_05.png" width=64 height=58 alt="Awards">
+          <div class="subtitle">Awards</div>
+          <div class="description">After the closing game, the award ceremony will take place with a small convite for the participants and guests.</div>
+        </div>
+      </div>
+      <div class="texttoright">View Full Program ></div>
+    </div>
   </section>
 
-  <footer>
+  <section class="section3-wrapper">
+    <div class="section3">
+      <h2 class="myh1b">main teams</h2>
+      <hr class="hr2">
+      <div class="teams-wrapper">
+      </div>
+      <div class="texttoright2">See More Teams ></div>
+    </div>
+  </section>
 
+  <hr class="hr3">
+
+  <section class="section4-wrapper">
+    <div class="section4">
+      <h2 class="myh1c">Sponsors</h2>
+      <hr class="hr2b">
+      <div class="sponsors">
+        <div class="sponsor"><img class="spimg" src="img/mocst.png" width=80 height=30 alt="Ministry of Culture and Sports"></div>
+        <div class="sponsor"><img class="spimg" src="img/stackcommerce.png" width=80 height=30 alt="Stack Commerce"></div>
+        <div class="sponsor"><img class="spimg" src="img/macarthur.png" width=80 height=30 alt="Mc Arthur Foundation"></div>
+        <div class="sponsor"><img class="spimg" src="img/mozilla.png" width=80 height=30 alt="Mozilla"></div>
+        <div class="sponsor"><img class="spimg" src="img/kakao.png" width=80 height=30 alt="Kakao"></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr3">
+
+  <footer class="indexfooter">
+    <div class="tocenter desktopfloat">
+      <img alt="Creative Commons License" src="img/logo_cc_inverted.png">
+    </div>
+  
+    <div class="mini-text">2015 Creative Commons Korea. Some Rights Reserved.</div>
+    <div class="minispacer"> </div>
+    <div class="mini-text">All content on the website, unless otherwise specified,
+      is available under a Creative Commons Attribution 2.0 Korea license.
+      <a class="mini-text-red" href="https://creativecommons.org/licences/by/2.0/kr">
+        Please see http://creativecommons.org/licences/by/2.0/kr
+      </a>
+    </div>
+    <div class="mini-text">for detailed usage function details and permission conditions .
+      Creative Commons Global
+      Summit is committed to providing a harassment-free meeting experience for all.
+    <span class="mini-text-red">See our Code of Conduct</span> and 
+    <span class="mini-text-red">Non-Infringement Policy .</span></div>
+    <div class="minispacer2">&nbsp;</div>
   </footer>
 </body>
 </html>
