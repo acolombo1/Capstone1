@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('Cocogoose.ttf')  format('truetype');
+}
 
 body {
   margin: 0;
@@ -235,12 +239,15 @@ header {
 .speaker {
   float: left;
   margin-right: 8px;
-  margin-bottom: 2px;
+  margin-bottom: 22px;
+  width: 89px;
+  height: 89px;
 }
 
 .right-text {
+  font-family: 'Cocogoose', sans-serif;
   color: rgb(39, 42, 50);
-  margin-top: 28px;
+  margin-top: 8px;
   font-size: 1rem;
 }
 
@@ -260,7 +267,6 @@ header {
   font-size: 0.82rem;
   line-height: 1.22rem;
   padding: 0 13px 0 20px;
-  clear: both;
 }
 
 .spacer {
@@ -305,14 +311,43 @@ header {
   line-height: 0.2rem;
 }
 
-.sponsor {
-  margin-top: 20px;
+.hr2b {
+  height: 1px;
+  border-width: 0;
+  background-color: rgb(255, 71, 71);
+  width: 54px;
+  margin-bottom: 24px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
-footer {
-  background-color: rgb(46, 46, 46);
+.sponsor {
+  margin: 10px;
+}
+
+.spimg {
+  width: 80px;
+  height: 30px; 
+}
+
+.indexfooter {
+  background-color: white;
   padding-top: 24px;
+}
+
+.aboutfooter {
+  background-color: white;
+  padding-top: 24px;
+}
+
+.desktopfloat {
+  margin: 10px;
+  float: left;
 }
 
 .tocenter {
@@ -335,7 +370,7 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 0.656rem;
-  color: white;
+  color: rgb(46, 46, 46);
   line-height: 1.125rem;
 }
 
@@ -633,10 +668,13 @@ footer {
   .speaker {
     margin-right: 30px;
     margin-bottom: 5px;
+    width: 178px;
+    height: 177px;
   }
 
   .right-text {
     font-size: 1.375rem;
+    margin-top: 28px;
   }
 
   .right-text-smaller {
@@ -653,7 +691,6 @@ footer {
   .description2 {
     font-size: 0.875rem;
     line-height: 1.5rem;
-    clear: none;
   }
 
   .spacer {
@@ -670,15 +707,26 @@ footer {
   .team-block {
     width: calc(50% - 10px);
   }
+  
+  .spimg {
+    width: 160px;
+    height: 60px; 
+  }
+  
+  .indexfooter {
+    padding-top: 46px;
+    padding-right: calc(50% - 575px);
+    padding-left: calc(50% - 575px);
+  }
 
-  footer {
+  .aboutfooter {
+    background-color: rgb(46, 46, 46);
     padding-top: 46px;
     padding-right: calc(50% - 575px);
     padding-left: calc(50% - 575px);
   }
 
   .desktopfloat {
-    float: left;
     margin: 29px 106px 185px 117px;
   }
 
@@ -698,8 +746,11 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0.875rem;
-    color: white;
     line-height: 1.5rem;
+  }
+
+  .colorchange {
+    color: white;
   }
 
   .minispacer {
