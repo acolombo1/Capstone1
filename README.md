@@ -57,7 +57,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - ![](https://img.shields.io/badge/Microverse-blueviolet)
-- Original design idea by Cindy Shin.
+- Original design idea by [Cindy ShinCindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
