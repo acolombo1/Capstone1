@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-plusplus */
+/* eslint-disable guard-for-in */
 
 /* Store Teamss in Javascript objects */
 const teams = {
@@ -71,4 +72,50 @@ for (let i = 0; i < menuItem.length; i++) {
   menuItem[i].addEventListener('click', () => {
     mobileMenu.style.display = 'none';
   });
+}
+
+function createteam(teamkey) {
+  const team = teams[teamkey];
+  const mainnode = document.querySelector('.teams-wrapper');
+  const teamnode = document.createElement('div');
+  teamnode.className = 'team-block';
+  mainnode.appendChild(teamnode);
+  const anydiv = document.createElement('div');
+  teamnode.appendChild(anydiv);
+  const imgnode = document.createElement('img');
+  imgnode.src = team.image;
+  imgnode.alt = team.name;
+  imgnode.width = '178';
+  imgnode.height = '177';
+  imgnode.className = 'speaker';
+  const div1 = document.createElement('div');
+  div1.className = 'right-text';
+  div1.innerHTML = team.name;
+  const div2 = document.createElement('div');
+  div2.className = 'right-text-smaller';
+  div2.innerHTML = team.fullname;
+  const div3 = document.createElement('div');
+  div3.className = 'right-red-text';
+  div3.innerHTML = team.caption;
+  const div4 = document.createElement('div');
+  div4.className = 'description2';
+  div4.innerHTML = team.description;
+  const div5 = document.createElement('div');
+  div5.className = 'description2';
+  div5.innerHTML = team.players;
+  const div6 = document.createElement('div');
+  div6.className = 'spacer';
+  div6.innerHTML = ' ';
+  anydiv.appendChild(imgnode);
+  anydiv.appendChild(div1);
+  anydiv.appendChild(div2);
+  anydiv.appendChild(div3);
+  anydiv.appendChild(div4);
+  anydiv.appendChild(div5);
+  anydiv.appendChild(div6);
+}
+
+// eslint-disable-next-line no-restricted-syntax
+for (const teamkey in teams) {
+  createteam(teamkey);
 }
